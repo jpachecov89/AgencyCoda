@@ -1,0 +1,24 @@
+﻿@page
+
+@{
+    ViewData["Title"] = "AllEvents";
+}
+
+<script src="~/js/AllEvents.js"></script>
+
+<a class="btn btn-primary" style="margin-top: 20px;" asp-area="" asp-page="/Create">Crear Evento</a>
+
+<table style="margin-top: 20px;" class="table table-bordered" id="tblEvents">
+    <thead>
+        <tr>
+            <th>Nro</th>
+            <th>Subject</th>
+            <th>Content</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>

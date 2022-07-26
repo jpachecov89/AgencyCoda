@@ -1,0 +1,31 @@
+﻿@page
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<script src="~/js/Create.js"></script>
+
+<div style="margin-top: 50px;">
+    <form id="CreateEvent">
+        <div class="row" style="margin:10px;">
+            <label class="col-sm-3">Subject:</label>
+            <input type="text" class="col-sm-4 form-control" id="subject" autocomplete="off" />
+        </div>
+        <div class="row" style="margin:10px;">
+            <label class="col-sm-3">Content:</label>
+            <input type="text" class="col-sm-4 form-control" id="bodyContent" autocomplete="off" />
+        </div>
+        <div class="row" style="margin:10px;">
+            <label class="col-sm-3">Start Date Time:</label>
+            <input type="datetime-local" class="col-sm-4 form-control" id="startDatetime" autocomplete="off" />
+        </div>
+        <div class="row" style="margin:10px;">
+            <label class="col-sm-3">End Date Time:</label>
+            <input type="datetime-local" class="col-sm-4 form-control" id="endDatetime" autocomplete="off" />
+        </div>
+        <div class="row col-sm-3" style="margin:10px;">
+            <input type="button" value="Guardar" class="btn btn-primary" id="btnGuardar" />
+        </div>
+    </form>
+</div>

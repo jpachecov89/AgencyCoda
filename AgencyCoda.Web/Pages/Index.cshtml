@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="~/js/Index.js"></script>
+
+<div class="row" style="margin:10px;">
+    <label class="col-sm-3">Usuario:</label>
+    <label class="col-sm-4">agencycoda@tw7xf.onmicrosoft.com</label>
+</div>
+<div class="row" style="margin:10px;">
+    <label class="col-sm-3">Password:</label>
+    <label class="col-sm-4">****************</label>
+</div>
+
+<a class="btn btn-primary" style="margin-top: 20px;" id="btnSignIn">Sign In</a>
+<a class="btn btn-primary" style="margin-top: 20px; margin-left: 10px;" id="btnRefreshToken">Refresh Token</a>
